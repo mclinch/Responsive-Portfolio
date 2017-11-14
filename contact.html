@@ -2,10 +2,12 @@
 <html lang="en-us">
 <head>
   <meta charset="utf-8">
+  <link rel="icon" href="favicon-16.png">
   <title>Mike's Bio</title>
   <!-- https://mclinch.github.io/Basic-Portfolio/ -->
 
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 <!-- Background pattern from Subtle Patterns -->
@@ -25,34 +27,38 @@
     <!-- </div> -->
   </header>
 
-  <section class="maincontent">
-    <h1 class="aboutme">
+  <!-- <section class="maincontent"> -->
+<!--     <h1 class="aboutme">
       Contact  
-    </h1>
-    
-    <form>
-      <label><span>Name</span>
-      <input type="text" name="name"></label>
-      <label><span>Email</span>
-      <input type="email" name="replyto"></label>
-      <label><span>Message</span>
-      <textarea name="message"></textarea>
-      <input type="submit" name="send" class="button">
-      
-    </form>
+    </h1> -->
+    <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdB-Vz92AMeI5nPJCD_JBzwGnwpDkLYzRUCwY2FIQWTmFrjfA/viewform?embedded=true#start=embed" width="440" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
 
-  </section>
+    <!-- web app script -->
+    <!-- https://script.google.com/macros/s/AKfycbz8eNlFJ3G4Eacel-CEjKgnWQfyWx_NRj86HCH67goeP6gj5LQ/exec -->
+    
+<!--     <form id="test-form">
+      <label><span>Name</span>
+      <input type="text" name="Name"></label>
+      <label><span>Email</span>
+      <input type="email" name="Email"></label>
+      <label><span>Message</span>
+      <textarea name="Message"></textarea>
+      <input type="submit" id="submit-form" name="send" class="button">
+      
+    </form> -->
+
+  <!-- </section> -->
   
-  <aside>
-    <h2 class="connectwithme">Connect with Me</h2>
-      <a href="https://mclinch.github.io/Basic-Portfolio/">
-        <img class="githublink" src="assets/images/GitHub-Mark-120px-plus.png" alt="Github">
+  <aside class="cent">
+    <h2 class="connect">Connect with Me</h2>
+      <a href="https://github.com/mclinch">
+        <img class="githublink" href="" src="assets/images/GitHub-Mark-120px-plus.png" alt="Github">
       </a>
-      <a href="">
+      <a href="https://www.linkedin.com/in/michael-clinch">
         <img class="linkedinlink" src="assets/images/In-2C-128px-TM.png" alt="LinkedIn">
       </a>
-      <a href="">
-        <img class="stackoverflowlink" src="assets/images/so-icon.png" alt="Stack Overflow">
+      <a href="https://stackoverflow.com/users/7536410/clinch">
+        <img class="stackoverflowlink" href="" src="assets/images/so-icon.png" alt="Stack Overflow">
       </a>
   </aside>
 
@@ -67,6 +73,23 @@
   </footer>
 
 </div>
+
+<!-- <script type="text/javascript">
+  var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/AKfycbz8eNlFJ3G4Eacel-CEjKgnWQfyWx_NRj86HCH67goeP6gj5LQ/exec'
+
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+  );
+})
+</script> -->
 </body>
 
 </html>

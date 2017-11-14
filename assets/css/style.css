@@ -115,6 +115,29 @@ li a:hover {
 	/*padding-top: 20px;*/
 }
 
+.connect {
+	border-bottom-style: solid;
+	border-color: #cccccc;
+	color: #666666;
+	border-width: 2px;
+	margin-bottom: 10px;
+	background-color: #ffffff;
+	/*font-size: 25px;*/
+
+	/*padding-top: 20px;*/
+}
+
+.cent {
+	border-style: solid;
+	/*float: center;*/
+	border-color: #cccccc;
+	width: 20%;
+	text-align: center;
+	padding: 0px 20px 20px 20px;
+	background-color: white;
+	margin: 40px 20px 40px 370px; 
+}
+
 .content {
 	margin-left: 20px;
 	line-height: 2;
@@ -205,6 +228,7 @@ div.container {
 	text-align: center;
 	padding: 10px 20px;
 	color: #FFFFFF;
+	background-color: #F8CC58;
 
 }
 
