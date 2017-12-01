@@ -48,6 +48,11 @@ html body {
 
 }
 
+.name:hover {
+	position: relative;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
 .header {
 	/*position: absolute;
 	top*/
@@ -145,6 +150,10 @@ li a:hover {
 
 }
 
+.polaroid-text {
+	font-size: large;
+}
+
 .maincontent { 
 	border-style: solid;
 	float: left;
@@ -228,7 +237,7 @@ div.container {
 	text-align: center;
 	padding: 10px 20px;
 	color: #FFFFFF;
-	background-color: #F8CC58;
+	background-color: #4aaaa5;
 
 }
 
